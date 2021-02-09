@@ -1,0 +1,31 @@
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: 0 auto !important;
+display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: pink; */
+}
+#navId{
+    background-color: tomato!important;
+    overflow: hidden;
+}
+.nav-link{
+    font-size: 20px;
+
+}
+.nav-link:hover{
+    background-color:coral;
+    font-weight: 700;
+}
+body{
+    background-color: #fceae8;
+}
+.carousel-inner .carousel-item {
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+  }
